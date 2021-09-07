@@ -1,0 +1,101 @@
+.header-section{
+    background-color: #e3f2fd;
+}
+.logo{
+    margin-top: 10px;
+}
+.logo img{
+    width: 60px;
+}
+.menu-area{}
+.menu-area ul{
+    margin-top: 10px;
+}
+.menu-area ul li{
+    display: inline-block;
+}
+.menu-area ul li a{
+    display: block;
+    text-decoration: none;
+    color: #768d9e;
+    font-size: 16px;
+    padding: 10px 8px;
+    line-height: 31px;
+}
+.menu-area ul li:first-child a{
+    color: #161819;
+}
+.form-area{
+    margin-top: 20px;
+    text-align: right;
+}
+.default-input{
+    padding: 6px 8px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+.form-area input:nth-child(2){
+    padding: 5px 15px;
+    border: 1px solid #4ab567;
+    border-radius: 5px;
+    color: #4ab567;
+    outline: none;
+    transition: .4s;
+}
+.form-area input:nth-child(2):hover{
+    background-color: #4ab567;
+    color: #fff;
+}
+
+/*toast nav area*/
+.toast-nav-area{
+    margin-top: 50px;
+}
+.nav-area{}
+.nav-area ol{
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    background-color: #ddd;
+}
+.nav-area ol li{}
+
+/*banner section*/
+.carousel-item img{
+    height: 600px;
+}
+
+/*alert headding*/
+.alert-header{
+    margin-top: 50px;
+}
+
+/*according-collapse-card*/
+.according-collapse-card{
+    margin-top: 40px;
+    padding: 50px 0;
+}
+
+/*Click here button tooltip on button*/
+.click-tooltip{
+    background-color: #fff;
+    padding: 40px 0;
+}
+/*pagination dropdown*/
+.pagination-dropdown{
+    padding: 40px 0;
+}
+.previous-area{
+    margin-left: 300px;
+}
+
+
+/*footer area*/
+.footer-area{
+background-color: #17a2b8;
+
+}
+.footer-area p{
+text-align: center;
+color: #fff;
+padding: 20px;
+}
